@@ -1,0 +1,17 @@
+data_path ../cv_data/drug8_fold5_train_net.txt
+save_path result/
+save_suffix test
+embedding_size 24
+epochs_to_train 20
+batch_size 256
+learning_rate 0.0025
+undirected True
+alpha 0.0
+lamb 0.5
+grad_clip 5.0
+K 1
+sampling_size 100
+seed -1
+index_from_0 True
+embeddings_prefix drug8_fold5_
+save_format mat
